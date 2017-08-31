@@ -1,0 +1,292 @@
+/**
+** WEBSITE RESPONSIVE STYLESHEET V 1.0
+** FORDEV WEBSITE 2017
+** ALL RIGHT RESERVED 
+** @author LOTFIO LAKEHAL
+** 
+***/
+@media only screen and (min-width: 1200px){
+
+	.container{
+		width: 1170px;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+	.container{
+		width: 962px;
+	}
+
+	/* ====== | header  Section| ====== */
+
+	header nav .search-holder .inp-holder{
+		width: 200px;
+	}
+	header nav .menu-holder ul li a{
+		padding: 20px;
+	}
+
+
+
+	/* ====== | Vps Hosting Section | ====== */
+	.vps-hosting ul li:first-of-type::before{
+		left: 40%
+	}
+
+	
+}
+
+@media only screen and (min-width: 786px) and (max-width: 991px){
+
+	.container{
+		width: 756px;
+	}
+	
+	/* ====== | Header Section | ====== */
+	header nav{
+		min-height: 52px;
+	}
+	nav .search-holder{
+		padding-top: 12px;
+	}
+
+	header nav .search-holder .inp-holder{
+		width: 160px;
+	}
+	nav .search-holder button{
+		padding:  9px 15px;
+	}
+	header nav .menu-holder ul li a{
+		padding: 20px;
+		font-size: 10px;
+	}
+
+	/* ====== | services | ======= */
+	.serv-sec .serv-unit .serv-image{
+		width: auto!important;
+	}
+
+	/* ====== | welcome section | ====== */
+	.welcome-sec .welcome::before,.welcome-sec .welcome::after,.sep::before,.sep::after{
+		width: 185px;
+	}
+
+
+
+
+	/* ====== | Vps Hosting Section | ====== */
+	.vps-hosting ul li:first-of-type::before{
+		left: 39%
+	}
+
+
+}
+
+@media only screen and (max-width: 785px){
+
+	/* ====== | Header Section | ====== */
+
+	header .head-links ul:last-of-type li a{
+		padding: 6px 12px;
+		font-size: 15px;
+	}
+	header .head-links ul:first-of-type li a{
+		margin: 1px;
+	}
+	header .head-links ul:first-of-type{
+		margin-left: 70px
+	}
+	
+	header nav {
+		min-height: 50px;
+	}
+
+	header nav .logo{
+		width: 90px;
+		height: 90px;
+		top: -18px;
+		left: 5px;
+	}
+
+	
+	header nav .menu-holder span{
+		display: block;
+	}
+	header nav .menu-holder {
+		float: right;
+		position: relative;
+	}
+	header nav .menu-holder ul {
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 50px;
+		z-index: 3;
+		right: -15px;
+		background: #333;
+		width: 320px;
+		margin: 0;
+	}
+	header nav .menu-holder ul li{
+		text-align: center;
+		width: 100%;
+	}
+
+	header nav .search-holder{
+		padding-top: 9px;
+	}
+
+	nav .search-holder .inp-holder{
+		width: 195px;
+	}
+	nav .search-holder button{
+		padding: 9px 10px;
+	}
+
+	/* ====== | welcome section | ====== */
+	.welcome-sec .welcome h1{
+		font-size: 38px;
+		margin-bottom: 15px;
+	}
+	.welcome-sec .welcome::before,.welcome-sec .welcome::after,.sep::before,.sep::after{
+		width: 15%;
+	}
+
+	/* ======== | service section | ======== */
+	.serv-sec .serv-unit{
+		width: 47%;
+	}
+	/* ====== | hosting section | ====== */
+
+	.hosting-sec .web-hosting ul{
+		width: 47%;
+		margin-right: 3%;
+		margin-bottom: 30px;
+	}
+
+
+
+	/* ====== | Vps Hosting Section | ====== */
+	.vps-hosting ul{
+		width: 50%;
+		margin-right: 0;
+	}
+
+
+
+		
+
+
+	/* ====== | modal Section | ====== */
+	.modal-holder .modal-content{
+		width: 80%;
+		margin: 50px auto;
+	}
+	
+	#modalsignupform, #modalloginform{
+		width: 80%;
+	}
+
+}
+
+
+@media only screen and (max-width: 475px) {
+	
+	/* ====== | Header Section | ====== */
+
+	header .head-links ul:first-of-type {
+    margin-left: 60px;
+	}
+	
+	header .head-links ul:last-of-type li a {
+		padding: 5px 8px;
+		font-size: 15px;
+	}
+	nav .search-holder .inp-holder{
+		width: 155px;
+	}
+
+	/* ======== | service section | ======== */
+	.serv-sec .serv-unit{
+		width: 100%;
+	}
+
+
+	/* ====== | Web hosting section | ====== */
+
+	.hosting-sec .web-hosting ul{
+		width: 98%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+	
+	/* ====== | Vps Hosting Section | ====== */
+	.vps-hosting ul{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	/* ====== | MODEL | =======*/
+	#modalsignupform, #modalloginform{
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 414px) {
+
+	/* ====== | Header Section | ====== */
+
+	header .head-links{
+		padding: 5px 0px 20px 0;
+	}
+	
+	header .head-links ul:first-of-type{
+		margin: 0;
+	}
+
+	nav .search-holder .inp-holder{
+		width: 110px;
+	}
+
+	/* ====== | Welcome Section | ====== */
+	.welcome-sec .welcome::before,.welcome-sec .welcome::after,.sep::before,.sep::after{
+		width: 0;
+	}
+
+}
+
+
+/**  media  for iphone 5 + 4 **/
+
+@media only screen and (max-width: 320px){
+
+	/* ====== | Header Section | ====== */
+	
+	header .head-links{
+		padding: 10px 0px 20px 0;
+	}
+	header .head-links ul:last-of-type{
+		margin-top: -8px;
+	}
+
+	header .head-links ul:first-of-type li a{
+		margin: -3px;
+	}
+
+
+	nav .search-holder .inp-holder{
+		width: 70px;
+	}
+
+	nav .search-holder .inp-holder input{
+		padding-left: 12px;
+	}
+
+
+
+}	 
