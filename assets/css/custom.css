@@ -105,12 +105,10 @@ input:-webkit-autofill {
 	width: 100%;
 	height: 100%;
 	padding-left: 8px;
+	border: 2px solid #dadada;
 }
-
 .inp-holder input:focus{
-	box-shadow: 0 0 21px 0 #e4e4e4 inset; 
-	border: 1px solid #bdbdbd;
-	border-radius: 2px;
+	border: 2px solid #b7b2b2;
 }
 
 /*==========| STYLING RULES |==========*/
@@ -721,6 +719,7 @@ hr{
 	background: #eee;
 	cursor: pointer;
 	padding: 5px 20px;
+	border-radius: 5px;
 }
 .modal-switcher{
 	display: inline-block;
@@ -731,5 +730,5 @@ hr{
 	padding: 5px 18px;
 	color: #fff;
 	font-weight: bold;
-	border-radius: 30px;
+	border-radius: 5px;
 }
