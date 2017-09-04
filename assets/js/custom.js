@@ -19,6 +19,14 @@ $(document).ready(function(){
 
 	});
 
+	/**
+	 * menu size = nav size
+	 */
+	$('.menu-holder ul').width($('header nav').width());
+	$(window).on("resize", function(){
+		$('.menu-holder ul').width($('header nav').width());
+	});
+
 	/** 
 	** close menu on click every where on the window
 	*/
