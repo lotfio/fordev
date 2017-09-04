@@ -82,6 +82,11 @@
 	}
 
 
+	#modalsignupform, #modalloginform{
+		width: 80%;
+	}
+
+
 }
 
 @media only screen and (max-width: 785px){
@@ -96,7 +101,8 @@
 		margin: 1px;
 	}
 	header .head-links ul:first-of-type{
-		margin-left: 70px
+		margin-left: 70px;
+		margin-top: 3px;
 	}
 	
 	header nav {
