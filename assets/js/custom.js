@@ -87,64 +87,10 @@ $(document).ready(function(){
 
 		$('#modal').show();
 		$('body').css('overflow','hidden');
-
-		var from = $(this).attr('id'),
-		h2 	   = $('#modalheading'),
-		login  	= $('#modalloginform'),
-		signup 	= $('#modalsignupform'),
-		switcher = $('#modal-switcher');
-
-
-			if(from === 'signup'){
-
-			h2.addClass('signup').removeClass('login').html('Signup OR <a id="modal-switcher1">Login</a>');
-			login.hide();
-			signup.fadeIn();
-			switcher.text('Go to Login');
-
-			}else{
-				h2.addClass('login').removeClass('signup').html('Login OR <a id="modal-switcher1">Signup</a>');
-				signup.hide();
-				login.fadeIn();
-				switcher.text('Go to Signup');
-			}
-
-
 		
 	});
 
-	/**
-	** change modal form on switcher anchor click
- 	**/
- 	$('#modal-switcher, #modalheading').on('click', function(){
 
-
- 		// reset form on switch
- 		$('.modal-content form').trigger('reset');
-
- 		$('#modal-switcher, #modalheading').prop('disabled', true);
-
- 		var h2 		= $('#modalheading'),
- 			 signup 	= $('#modalsignupform'),
- 			 login 	= $('#modalloginform'),
- 			 switcher= $('#modal-switcher');
-
- 			if(h2.hasClass('signup')){
-
-	 			h2.addClass('login').removeClass('signup').html('Login OR <a id="modal-switcher1">Signup</a>');
-				signup.hide();
-				login.fadeIn();
-				switcher.text('Go to signup');
-
-	 		}else{
-	 			h2.addClass('signup').removeClass('login').html('Signup OR <a id="modal-switcher1">Login</a>');
-				login.hide();
-				signup.fadeIn();
-				switcher.text('Go to login');
-	 		}
-
-
- 	});
 
 /*
 ** Close the modal when clicking on the whole screen but not at the middle on the content area 
