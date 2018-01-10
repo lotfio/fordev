@@ -659,6 +659,7 @@ nav .search-holder button{
 }
 
 
+/* ========== |  FOOTER SECTION | =========== */
 
 
 
@@ -677,9 +678,18 @@ nav .search-holder button{
 
 
 
-
-
-
+/* ========== | BACK TOP | ========== */
+.back-top{
+	padding: 15px;
+	background: #dc0040;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	right: 30px;
+	bottom: 120px;
+	border-radius: 50%;
+	display: none;
+}
 
 
 /*========== | modal | ===========*/

@@ -131,6 +131,29 @@ $(document).ready(function(){
 	
 	});
 
+	/**
+	 * back to top arrow
+	 */
+	$('.back-top').on('click', function(){
+		$("html, body").animate({
+			scrollTop : 0
+		});
+	});
+
+	$(window).on('scroll', function(){
+
+		var height = $(document).scrollTop();
+		var elem   = $('.back-top');
+
+		if(height >= 800)
+		{
+			elem.css("display", "block");
+		}else{
+			elem.css("display", "none");
+		}
+		
+	});
+
 
 
 });
