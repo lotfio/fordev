@@ -15,7 +15,7 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	/* height: 6000px; */
 	overflow-x: hidden!important;
 }
@@ -615,7 +615,7 @@ nav .search-holder button{
 
 /* ========== | SKYPE SECTION | ==========*/
 .skype-sec{
-	padding: 30px 0;
+	padding: 80px 0;
 }
 
 .skype-sec h2{
@@ -644,7 +644,7 @@ nav .search-holder button{
 
 /* ========== | TECHNOLOGIES SECTION | =========== */
 .tech-sec{
-	padding: 10px 0;
+	padding: 0;
 	background: #f5f5f5;
 }
 
@@ -660,14 +660,107 @@ nav .search-holder button{
 
 
 /* ========== |  FOOTER SECTION | =========== */
+footer{
+	background: #464646;
+	color: #fff;
+}
+
+footer .sections > div:not(:last-child){
+	width: 33.333333%;
+	padding: 20px;
+}
+
+footer .sections p{
+	font-size: 13px;
+}
+
+footer .foot-sec-1 > ul{
+	padding: 10px 0;
+}
+
+footer .foot-sec-1 > ul:last-of-type{
+	margin-left: 40px;
+}
+
+footer .foot-sec-1 > ul li a{
+	display: block;
+	color: #fff;
+	padding: 5px 0;
+}
+
+footer .foot-sec-1 > ul li a:hover{
+	color: #888;
+}
+
+footer .foot-sec-2 .subscribe{
+	
+}
+
+footer .foot-sec-2 .subscribe .inp-holder{
+	margin:  20px 0;
+	width: 67%;
+    margin-right: 1px;
+}
+
+footer .foot-sec-2 .subscribe .inp-holder input{
+	border: 0;
+	border-radius: 2px;
+}
+
+footer .foot-sec-2 .subscribe button{
+	width: 32%;
+	margin-top: 20px;
+	padding: 8px;
+	background: #dc0040;
+	border: 2px solid #dc0040;
+	color: #fff;
+	box-shadow: 0px 0px 4px #000;
+	border-radius: 2px;
+}
+
+footer .foot-sec-2 .subscribe button:hover{
+	background: #202020;
+	border: 2px solid #202020;
+	box-shadow: 0px 0px 1px #000;
+	cursor: pointer;
+}
 
 
+footer .foot-sec-3 ul li a{
+	color: #fff;
+    display: block;
+    padding: 5px 0;
+    font-size: 14px;
+}
+footer .foot-sec-3 ul li a i {
+	font-size: 18px;
+}
 
+footer .footer-btm{
+	padding: 20px;
+	background: #333;
+	box-shadow: 0px -1px 5px #000;
+}
 
+footer .footer-btm .foot-links > p{
+	margin-right: 20px;
+}
 
+footer h3{
+	padding: 10px 0;
+}
 
+footer .footer-btm .foot-links ul li{
+	float: left;
+}
 
-
+footer  .footer-btm .foot-links ul li a{
+	color: #fff;
+    padding: 9px 8px;
+    border-radius: 50%;
+    background: #020202;
+    margin-left: 2px;
+}
 
 
 
