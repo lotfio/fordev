@@ -35,6 +35,16 @@
 		left: 40%
 	}
 
+	/* ====== | FOOTER |====== */
+	footer .sections > div:not(:last-child){
+		width: 33.333333%;
+		padding: 10px;
+	}
+
+	footer .foot-sec-1 > ul:last-of-type{
+		margin-left: 10px;
+	}
+
 	
 }
 
@@ -82,6 +92,17 @@
 	}
 
 
+	/* ====== | FOOTER |====== */
+	footer .sections > div:not(:last-child){
+		width: 100%;
+		margin: 20px 0 0 0;
+		border-bottom: 1px solid #888;
+	}
+	
+	footer .sections > div:nth-of-type(3)
+	{
+		border-bottom: 0;
+	}
 
 }
 
@@ -176,10 +197,36 @@
 		margin-right: 0;
 	}
 
+	/* ====== | FOOTER |====== */
+	footer .sections > div:not(:last-child){
+		width: 100%;
+		margin: 20px 0 0 0;
+		border-bottom: 1px solid #888;
+	}
 
+	footer .sections > div:nth-of-type(3)
+	{
+		border-bottom: 0;
+	}
+	
+	footer .footer-btm .foot-links > p{
+		display: none;
+	}
+	
+	footer .footer-btm  p{
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
+	}
 
-		
+	footer .footer-btm .foot-links{
+		float: none;
+		margin-left: 41%;
+	}
 
+	footer .footer-btm .foot-links ul{
+		float: none;
+	}
 
 	/* ====== | modal Section | ====== */
 	.modal-holder .modal-content{
@@ -263,6 +310,10 @@
 		width: 0;
 	}
 
+	footer .footer-btm .foot-links{
+		margin-left: 26%;
+	}
+
 }
 
 
@@ -292,6 +343,8 @@
 		padding-left: 12px;
 	}
 
-
+	footer .footer-btm .foot-links{
+		margin-left: 22%;
+	}
 
 }	 
