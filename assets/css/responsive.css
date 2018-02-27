@@ -104,6 +104,7 @@
 		border-bottom: 0;
 	}
 
+
 }
 
 @media only screen and (max-width: 785px){
@@ -228,6 +229,10 @@
 		float: none;
 	}
 
+	footer .foot-sec-1 > ul:last-of-type{
+		margin-left: 10px;
+	}
+
 	/* ====== | modal Section | ====== */
 	.modal-holder .modal-content{
 		width: 80%;
@@ -286,6 +291,11 @@
 		width: 100%;
 		padding: 30px;
 	}
+
+	footer .foot-sec-1 > ul:last-of-type{
+		margin-left: 0px;
+	}
+
 
 }
 
