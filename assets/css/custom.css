@@ -125,16 +125,16 @@ input:-webkit-autofill {
 	border: 1px solid #d6d4d4;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	color: #c3c2c2;
+	color: #888;
  }
  ::-moz-placeholder { /* Firefox 19+ */
-	color: #c3c2c2;
+	color: #888;
  }
  :-ms-input-placeholder { /* IE 10+ */
-	color: #c3c2c2;
+	color: #888;
  }
  :-moz-placeholder { /* Firefox 18- */
-	color: #c3c2c2;
+	color: #888;
  }
 /*==========| STYLING RULES |==========*/
 
@@ -289,19 +289,15 @@ nav .search-holder .inp-holder{
 nav .search-holder .inp-holder input{
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 34px;
 	border: 0;
-	border-radius: 50px;
-	padding-left: 18px;
+	border-radius: 2px;
+	padding-left: 12px;
 }
 nav .search-holder button{
 	float: right;
-   padding: 9px 20px;
-   border-radius: 50px;
-   margin-right: 5px;
-   border: 0;
-   background: #f2f2f2;
-   cursor: pointer;
+   	padding: 9px 20px;
+   	margin-right: 5px;
 }
 
 /* ==========| SLIDER SECTION |==========*/
@@ -546,14 +542,10 @@ nav .search-holder button{
 .hosting-sec .web-hosting ul li:last-of-type a{
 	display: block;
 	padding: 10px;
-	background: rgba(225, 0, 65, 0.87);
 	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
-	cursor: pointer;
-}
-.hosting-sec .web-hosting ul li:last-of-type a:hover{
-	background: #464646;
+	box-shadow: 0px 0px 2px #000;
 }
 
 
@@ -604,14 +596,12 @@ nav .search-holder button{
 .vps-hosting ul li:last-of-type a{
 	display: block;
 	padding:  10px;
-	background: #e42159;
 	color: #fff;
 	font-size: 18px;
 	font-weight: bold;
+	box-shadow: 0px 0px 2px #000;
 }
-.vps-hosting ul li:last-of-type a:hover{
-	background: #464646;
-}
+
 
 /* ========== | SKYPE SECTION | ==========*/
 .skype-sec{
@@ -624,22 +614,11 @@ nav .search-holder button{
    margin-bottom: 40px;
 }
 .skype-sec button{
-	moz-box-shadow: 0px 10px 14px -7px #ccc;
-	-webkit-box-shadow: 0px 10px 14px -7px #ccc;
-	box-shadow: 0px 10px 14px -7px #ccc;
-	background-color: #e42159;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	border: 1px solid #c7c7c7;
-	cursor: pointer;
 	color: #ffffff;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 10px 46px;
-}
-.skype-sec button:hover{
-	background: #464646;
+	box-shadow: 0px 0px 2px #000;
 }
 
 /* ========== | TECHNOLOGIES SECTION | =========== */
@@ -707,20 +686,8 @@ footer .foot-sec-2 .subscribe button{
 	width: 32%;
 	margin-top: 20px;
 	padding: 8px;
-	background: #dc0040;
-	border: 2px solid #dc0040;
 	color: #fff;
-	box-shadow: 0px 0px 4px #000;
-	border-radius: 2px;
 }
-
-footer .foot-sec-2 .subscribe button:hover{
-	background: #202020;
-	border: 2px solid #202020;
-	box-shadow: 0px 0px 1px #000;
-	cursor: pointer;
-}
-
 
 footer .foot-sec-3 ul li a{
 	color: #fff;
@@ -758,9 +725,20 @@ footer  .footer-btm .foot-links ul li a{
     margin-left: 2px;
 }
 
+.btn-custom{
+	background: #dc0040;
+    border: 2px solid #dc0040;
+    color: #fff;
+    box-shadow: 0px 0px 4px #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
-
-
+.btn-custom:hover{
+	background: #202020;
+    border: 2px solid #202020;
+    box-shadow: 0px 0px 1px #000;
+}
 
 
 
@@ -770,9 +748,7 @@ footer  .footer-btm .foot-links ul li a{
 /* ========== | BACK TOP | ========== */
 .back-top{
 	padding: 15px;
-	background: #dc0040;
 	color: #fff;
-	cursor: pointer;
 	position: fixed;
 	right: 30px;
 	bottom: 120px;
