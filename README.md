@@ -4,4 +4,4 @@
 
 #### ForDev is pure HTML5, CSS3 responsive Template for web hosting developed by Lotfio Lakehal. 
 
-## check the template [here](https://lotfio-lakehal.github.io/fordev/)
+## check the template [here](https://lotfio.github.io/fordev/)
